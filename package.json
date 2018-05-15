@@ -1,5 +1,5 @@
 {
-  "name": "hw-tested",
+  "name": "helloworld",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,12 +7,22 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "node ./__test__/lib/hello.test.js",
-    "lint": "eslint **/*.js"
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johncokos/helloworld.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johncokos/helloworld/issues"
+  },
+  "homepage": "https://github.com/johncokos/helloworld#readme",
   "dependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^4.19.1",
+    "jest": "^22.4.3"
   }
 }
