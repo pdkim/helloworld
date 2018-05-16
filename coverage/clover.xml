@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1526438980321" clover="3.2.0">
-  <project timestamp="1526438980321" name="All files">
+<coverage generated="1526440786115" clover="3.2.0">
+  <project timestamp="1526440786115" name="All files">
     <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="7" coveredelements="7" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1">
-      <file name="person.js" path="/Users/john/codefellows/demo/helloworld/lib/person.js">
+      <file name="person.js" path="C:\Users\Phillip\codefellows\401\lecture\helloworld\lib\person.js">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="3" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
